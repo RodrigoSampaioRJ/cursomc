@@ -2,6 +2,7 @@ package com.rodrigosampaio.cursomc.domain;
 
 import java.io.Serializable;
 
+<<<<<<< HEAD
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -9,12 +10,17 @@ import javax.persistence.Id;
 
 
 @Entity
+=======
+>>>>>>> acea8ef7fab6d47fd235638ce27baa718f7ddf10
 public class Categoria implements Serializable {
 
 	private static final long serialVersionUID = 1L;
 	
+<<<<<<< HEAD
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
+=======
+>>>>>>> acea8ef7fab6d47fd235638ce27baa718f7ddf10
 	private Integer id;
 	private String nome;
 	
