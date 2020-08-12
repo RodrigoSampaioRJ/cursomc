@@ -1,21 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<<<<<<< HEAD
 <project xmlns="http://maven.apache.org/POM/4.0.0"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-=======
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
->>>>>>> acea8ef7fab6d47fd235638ce27baa718f7ddf10
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>2.3.2.RELEASE</version>
-<<<<<<< HEAD
 		<relativePath /> <!-- lookup parent from repository -->
-=======
-		<relativePath/> <!-- lookup parent from repository -->
->>>>>>> acea8ef7fab6d47fd235638ce27baa718f7ddf10
 	</parent>
 	<groupId>com.rodrigosampaio</groupId>
 	<artifactId>cursomc</artifactId>
@@ -44,7 +36,6 @@
 				</exclusion>
 			</exclusions>
 		</dependency>
-<<<<<<< HEAD
 		
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -60,8 +51,6 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-devtools</artifactId>
 		</dependency>
-=======
->>>>>>> acea8ef7fab6d47fd235638ce27baa718f7ddf10
 	</dependencies>
 
 	<build>
