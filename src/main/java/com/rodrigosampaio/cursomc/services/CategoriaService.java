@@ -11,7 +11,6 @@ import org.springframework.data.domain.Sort.Direction;
 import org.springframework.stereotype.Service;
 
 import com.rodrigosampaio.cursomc.domain.Categoria;
-import com.rodrigosampaio.cursomc.domain.Cliente;
 import com.rodrigosampaio.cursomc.dto.CategoriaDTO;
 import com.rodrigosampaio.cursomc.repositories.CategoriaRepository;
 import com.rodrigosampaio.cursomc.services.exceptions.DataIntegrityException;
@@ -33,9 +32,7 @@ public class CategoriaService {
 	
 	public List<Categoria> findAll() {
 		
-		List<Categoria> list = categoriaRepository.findAll();
-
-		return list;
+		return categoriaRepository.findAll();
 	}
 	
 	public Categoria insert(Categoria obj) {
